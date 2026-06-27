@@ -5,18 +5,53 @@
 
 
 /* custom - Css */
+
+
 div .custom-button {
     font-size: 18px;
-    padding: 5px 20px;
+    padding: 8px 20px;
     border-radius: 10px;
-    background-color: #19C1B6;
-    border-color: rgba(0, 0, 0, 0.384);
+    background-color: #f35b04;
+    /* border-color: rgba(0, 0, 0, 0.384); */
     margin-top: 8px;
     color: aliceblue;
     /* margin-left: 118px; */
     /* box-shadow: 0px 2px 15px #fab7b7dd; */
 
 }
+
+div .custom-button:hover {
+    background-color: #19C1B6;
+    color: rgb(220, 232, 245);
+    box-shadow: 0px 1px 8px #5a5a5add;
+
+
+}
+
+
+div .custom-card-button {
+    font-size: 18px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color: #f35b04;
+    /* border-color: rgba(0, 0, 0, 0.384); */
+    margin-top: 8px;
+    color: aliceblue;
+
+    margin-left: 3cap;
+    /* box-shadow: 0px 2px 15px #fab7b7dd; */
+}
+
+div .custom-card-button:hover {
+    background-color: #19C1B6;
+    color: rgb(220, 232, 245);
+    box-shadow: 0px 1px 8px #5a5a5add;
+
+
+}
+
+
+
 
 .custom-container {
     background-color: #fefae0;
@@ -43,7 +78,7 @@ div .custom-button {
 
 div .paragraph-p {
     font-size: 18px;
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 .video {
@@ -56,13 +91,6 @@ div .paragraph-p {
 
 /* Css Start */
 
-div .custom-button:hover {
-    background-color: #19C1B6;
-    color: rgb(220, 232, 245);
-    box-shadow: 0px 1px 8px #5a5a5add;
-
-
-}
 
 .carousel-control-prev .hh {
     /* background: #000; */
@@ -138,6 +166,10 @@ div .carousel-control-next {
     box-shadow: 0px 2px 15px #ccccccdd;
 }
 
+.top-icon-left .custiom-btn:hover {
+    background-color: #f35b04;
+    transition: all 0.3s ease;
+}
 
 
 /* Header Nav */
@@ -146,7 +178,7 @@ div .carousel-control-next {
     font-size: 14px;
     padding: 4px 10px;
     border-radius: 8px;
-    background-color: #19C1B6;
+    background-color: #f35b04;
     color: rgb(255, 255, 255);
     border-color: rgb(255, 255, 255);
     margin-top: 8px;
@@ -154,6 +186,11 @@ div .carousel-control-next {
     font-size: 16px;
     font-weight: 500;
     /* margin-left: 115px; */
+}
+
+.collapse .custiom-btn2:hover {
+    background-color: #19C1B6;
+    transition: all 0.3s ease;
 }
 
 .nav-main {
@@ -198,6 +235,17 @@ div .carousel-control-next {
 
 /* Academic  section*/
 
+.col-3 .card {
+    border: 1px solid #19C1B6;
+    ;
+}
+
+.card:hover {
+    box-shadow: 0px 5px 15px #b9fefbdc;
+    transition: all 0.3s ease;
+    ;
+}
+
 .card .card-img-top {
     width: 100px;
     margin: auto;
@@ -212,3 +260,8 @@ div .carousel-control-next {
 .card-text {
     text-align: justify;
 }
+
+
+
+/* Teacher Section  */
+
