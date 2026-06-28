@@ -324,9 +324,10 @@ div .custom-card-button3:hover {
 .card-icon {
     width: 55px;
     border-radius: 50px;
+    /* box-shadow: 0px 0px 5px #db1111; */
 }
 
-b {
+b{
     margin: auto;
     font-size: 20px;
 }
@@ -338,4 +339,78 @@ b {
     border-radius: 10px;
     box-shadow: 0px 0px 5px #19c1b680;
     border: 1px solid #ddd;
+}
+
+
+
+
+/* Footer Section */
+
+.footer-container{
+    background-color: #33312B;
+    padding: 40px;
+}
+div .logo-footer{
+    /* text-align: left; */
+    font-size: 80px;
+    line-height: 40px;
+
+}
+.footer-icon{
+    background-color: #ffffff;
+    width: 55%;
+    border-radius: 20px;
+    text-align: center;
+    /* padding: 10px; */
+}
+.footer-icon-i{
+    color: #ffffff;
+    margin: 8px 5px;
+    background-color: #f35b04;
+    padding: 5px 20px 5px 5px;
+    border-radius: 5px;
+    
+}
+.footer-icon-i:hover{
+    color: #0c0a0a;
+    margin: 5px;
+    background-color: #f35b04;
+    transition: all 0.3s ease;
+    transform: translateY(5px);
+
+}
+
+.footer-p{
+    text-align: justify;
+    font-size: 17px;
+    line-height: 22px;
+    color: #ddd;
+}
+.footer-h6{
+    text-align: center;
+    color: white;
+
+}
+.footer-manue {
+    padding: 0px 22px;
+}
+ul li{
+    list-style: none;
+    color: white;
+    line-height: 30px;
+}
+.footer-manue ul li:hover{
+    color:#f35b04;
+    transition: all 0.3s ease;
+    transform: translateX(5px);
+}
+
+.input-group .newsletter-buton{
+    background-color: #f35b04;
+    color: white;
+    padding: 9px;
+}
+.input-group .newsletter-buton:hover{
+    background-color: #be4702;
+    color: white;
 }
