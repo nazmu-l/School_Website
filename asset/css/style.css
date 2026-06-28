@@ -286,11 +286,35 @@ div .custom-card-button2 {
     /* margin-left: 7cap; */
     /* box-shadow: 0px 2px 15px #fab7b7dd; */
 }
+div .custom-card-button3 {
+    font-size: 18px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border-color: #f35b04;
+    /* border-color: rgba(0, 0, 0, 0.384); */
+    margin-top: 8px;
+    color: rgb(0, 0, 0);
+
+    /* margin-left: 7cap; */
+    /* box-shadow: 0px 2px 15px #fab7b7dd; */
+}
 
 div .custom-card-button2:hover {
-    background-color: #19C1B6;
-    color: rgb(220, 232, 245);
+    background-color: #f35b04;
+    color: rgb(255, 255, 255);
     box-shadow: 0px 1px 8px #5a5a5add;
+    transition: all 0.3s ease;
+    transform: translateY(2px);
+
+
+}
+div .custom-card-button3:hover {
+    background-color: #f35b04;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 8px #5a5a5add;
+    transition: all 0.3s ease;
+    transform: translateY(2px);
 
 
 }
@@ -305,4 +329,13 @@ div .custom-card-button2:hover {
 b {
     margin: auto;
     font-size: 20px;
+}
+
+.marquetag{
+    background-color: #FEFAE0;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #19c1b680;
+    border: 1px solid #ddd;
 }
