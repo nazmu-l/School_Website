@@ -81,8 +81,10 @@ div .custom-card-button:hover {
 
 div .paragraph-p {
     font-size: 18px;
-    /* text-align: justify; */
+    color: rgb(0, 0, 0);
+    /* text-align: ; */
 }
+
 
 .video {
     border-radius: 20px;
@@ -358,7 +360,7 @@ div .logo-footer{
 }
 .footer-icon{
     background-color: #ffffff;
-    width: 55%;
+    width: 80%;
     border-radius: 20px;
     text-align: center;
     /* padding: 10px; */
@@ -381,7 +383,7 @@ div .logo-footer{
 }
 
 .footer-p{
-    text-align: justify;
+    /* text-align: center; */
     font-size: 17px;
     line-height: 22px;
     color: #ddd;
@@ -413,4 +415,17 @@ ul li{
 .input-group .newsletter-buton:hover{
     background-color: #be4702;
     color: white;
+}
+
+/* Bootom Futer */
+.b-footerMain{
+    background-color: #000000;height: 100%;
+    height: 60px;
+}
+
+div .paragraph-p-FB {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
 }
