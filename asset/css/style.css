@@ -230,6 +230,14 @@ div .carousel-control-next {
     transition: all 0.3s ease;
 
 }
+.navbar-nav .nav-item .nav-link.active {
+    color: #19C1B6;
+
+}
+.navbar-nav .nav-item .nav-link.active:hover {
+    color: #ffffff;
+
+}
 
 .banner-img {
     width: 100%;
@@ -429,3 +437,51 @@ div .paragraph-p-FB {
     text-align: center;
     padding: 20px 0px 0px 0px;
 }
+
+
+/* স্ল্যাশ (/) পরিবর্তন করে গ্রেটার দ্যান (>) চিহ্ন দেওয়া */
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: ">" !important;
+    font-size: 18px;
+    font-weight: 500;
+    color: #19C1B6;
+    /* চিহ্নের রঙ */
+}
+
+/* লিংকগুলোর রঙ পরিবর্তন করতে চাইলে */
+
+.breadcrumb-item a {
+    color: #19C1B6;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.breadcrumb-item a:hover {
+    text-decoration: underline;
+}
+
+
+.about_container{
+    background-image: url(../img/aboutbreadcrumb.webp);
+    /* background-color: #f35b04; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+.custom-breadcrumb{
+    /* text-align: left; */
+    margin-left:450px;
+    border-radius: 10px;
+}
+
+.breadcrumb-item{
+    margin: 35px 0px;
+    background-color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+
